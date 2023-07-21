@@ -332,19 +332,6 @@ int main(int argc, char** argv)
 
 
 
-  // Initialisiere Datenstruktur des 2D Bool Array
-  // TODO
-  // Ueberlegen Sie sich wie Sie einen Startzustand in das 2D Bool Array bekommen
-  // Lesen Sie ggf.
-  // (1) eine solche Textdatei mittels Filestream ein
-  // (2) ueberladen Sie Operatoren operator<< oder operator>>
-
-  // TODO
-  // - legen Sie eine Instanz der Randbedingung an
-  // - legen Sie eine Instanz des Regelsystems an
-  // - Initialisieren Sie den zellulaeren Automaten
-
-  // Experimentieren Sie hier mit Ihrem Automaten
 
   return 0;
 }
