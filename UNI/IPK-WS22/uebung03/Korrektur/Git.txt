@@ -1,5 +1,0 @@
--0.5 Punkte
-Es sollen keine ausführbare Dateien geuploadet werde.
-
--0.5 Punkte
-Tutor wurde nicht als Maintainer hinzugefügt (kann nicht pushen)
