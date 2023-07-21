@@ -1,0 +1,4 @@
+/home/gianni0411/ipk-exercises/ipk-exercises/uebung04/release-build/CMakeFiles/frequencies.dir
+/home/gianni0411/ipk-exercises/ipk-exercises/uebung04/release-build/CMakeFiles/main.dir
+/home/gianni0411/ipk-exercises/ipk-exercises/uebung04/release-build/CMakeFiles/edit_cache.dir
+/home/gianni0411/ipk-exercises/ipk-exercises/uebung04/release-build/CMakeFiles/rebuild_cache.dir

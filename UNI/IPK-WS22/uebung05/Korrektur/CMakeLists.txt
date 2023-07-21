@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project (point LANGUAGES CXX)
+add_library(libpoint point.cc polygon.cc)
+add_executable(point analyse.cc)
+target_link_libraries(point PUBLIC libpoint)

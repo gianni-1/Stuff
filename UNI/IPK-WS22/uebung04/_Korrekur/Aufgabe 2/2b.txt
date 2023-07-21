@@ -1,0 +1,14 @@
+Aufgabe 2b)-----------------
+Laufzeit Build:
+0.01s user 0.00s system 0% cpu 13.769 total
+
+Laufzeit Release Build: 
+0.01s user 0.00s system 0% cpu 9.988 total
+
+Release Build ist schneller.
+
+
+
+
+
+

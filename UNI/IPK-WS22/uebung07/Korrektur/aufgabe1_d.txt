@@ -1,0 +1,10 @@
+für die median_naiv Implementierung benötigt mein Compiler:
+real	2m6,052s
+user	1m53,473s
+sys 	0m12,542s
+und für die median Implementierung benötigt er: 
+real	0m52,665s
+user	0m50,779s
+sys	    0m1,869s
+
+Die neue Implementierung der Funktion median ist deutlich schneller als die erste Funktion median_naiv

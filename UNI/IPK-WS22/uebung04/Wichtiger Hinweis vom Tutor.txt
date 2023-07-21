@@ -1,0 +1,1 @@
+Schreibt bitte in eure Votier.txt nicht jede einzelne Teilaufgabe rein, sondern schreibt z.B. "1a-e" oder "1a bis 1e".

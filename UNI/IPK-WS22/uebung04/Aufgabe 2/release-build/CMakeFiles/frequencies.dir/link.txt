@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfrequencies.a CMakeFiles/frequencies.dir/frequencies.cc.o
+/usr/bin/ranlib libfrequencies.a
