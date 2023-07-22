@@ -6,4 +6,8 @@ statistics
 *~
 # das Unterverzeichnis build/ (von CMake)
 build/
+# das Unterverzeichnis .vscode/ 
+.vscode/
+#zipfiles
+*.zip
 
