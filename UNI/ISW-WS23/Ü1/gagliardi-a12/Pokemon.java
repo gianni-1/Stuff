@@ -1,18 +1,14 @@
 
-
 public class Pokemon
 {
-    //Deklaration des Aufzählungstyps type
-    enum Type
-    {
-        FIRE,
-        WATER,
-        POISON;
-    }
+
 
     //Deklaration der privaten Member
     private String name;
     private Type type;
+    private int number;     // Attribut zur Speicherung der ID des aktuellen Pokemon-Objekts
+    private static int nextNumber = 1; //// Statisches Attribut zur Speicherung der nächsten zu vergebenden ID
+
 
 
     //Konstruktor
@@ -20,9 +16,11 @@ public class Pokemon
     {
         this.name = name;
         this.type = type;
+        this.number = nextNumber;   // Zuweisung der aktuellen nextNumber zur number des aktuellen Pokemon-Objekts
+        nextNumber++;           // Inkrementierung der nextNumber für das nächste Pokemon-Objekt
     }
 
-    //Getter- und SetterMethoden für die Attribute name und type 
+    //Getter- und SetterMethoden für die Attribute name und type und number
     public String getName()
     {
         return name;
@@ -32,6 +30,12 @@ public class Pokemon
     {
         this.name = name;
     }
+
+    public int getNumber()
+    {
+        return number;
+    }
+
 
     public Type getType()
     {
@@ -51,16 +55,23 @@ public class Pokemon
      * auf das aktuelle Objekt.
      * */
 
-
+    public String toString()
+    {
+        return "Pokemon [Number: " + number + ", Name: " + name + ", Type: " + type + "]";
+    }
 
     //Main zum Ausführen des Programms 
     public static void main(String[] args)
     {
         //Deklaration des Objekts
         Pokemon dangerousPokemon;
+        Pokemon harmlessPokemon;
 
         //Erstellung des Objekts 
         dangerousPokemon = new Pokemon("Gyarados",Type.WATER);
+        harmlessPokemon = new Pokemon("Shiggy", Type.WATER);
+
+
     }
 
 
