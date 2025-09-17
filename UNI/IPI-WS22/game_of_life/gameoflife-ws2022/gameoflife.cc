@@ -43,7 +43,7 @@ public:
 
   ~TwoDBoolArray(){
 
-    for(int i=0;i<_gheight;i++){
+    for(int i=0;i<_ghorPixels;i++){
       delete[] _gpixels[i];
     }
 
@@ -101,7 +101,7 @@ public:
       return *this;                                                               
     }
 
-    for(int i=0; i<_gheight;i++){
+    for(int i=0; i<_ghorPixels;i++){
       delete[] _gpixels[i];
     }
 
@@ -159,11 +159,11 @@ class TorusCondition : public BoundaryCondition
   // Implementieren Sie hier die Funktion boundary()
   // sodass das Gebiet als doppelt periodisch angenommen wird
   bool boundary(Daten& daten, int i, int j){
-    if(i>=daten.vertPixels()|| i<0){
-      i=(i+daten.vertPixels()) % daten.vertPixels();
+    if(i>=daten.horPixels()|| i<0){
+      i=(i+daten.horPixels()) % daten.horPixels();
     }
-    else if(j>=daten.horPixels() || j<0){
-      j=(j+daten.horPixels()) % daten.vertPixels();
+    if(j>=daten.vertPixels() || j<0){
+      j=(j+daten.vertPixels()) % daten.vertPixels();
     }
     return daten(i,j);
   }
